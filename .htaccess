@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^www\.dlearningai\.com [NC]
+RewriteRule ^(.*)$ https://dlearningai.com/$1 [L,R=301]
